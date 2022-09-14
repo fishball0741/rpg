@@ -19,8 +19,8 @@ galadriel.purse.value = (10, 5, 1)
 grok = rpg.Character('Grok', 'Orc', health=130)
 chest = rpg.Chest(['longword', 'iron helmet'], 2, 50, 25)
 
-# conan.battle(galadriel)
-# galadriel.battle(grok)
+conan.battle(galadriel)
+galadriel.battle(grok)
 
 # galadriel.purse.__gold = 1000
 
